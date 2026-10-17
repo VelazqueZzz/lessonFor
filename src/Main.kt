@@ -2,14 +2,10 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 import kotlin.random.Random
 
-
 fun main() {
-    val letters = 'a'..'z'
-    val digits = '0'..'9'
-    var password = ""
-    for (i in 1..3) {
-        password = password + letters.random() + digits.random()
+    print("Введите число: ")
+    val n = readln().toInt()
+    for (i in 0..n step 2) {
+        println(i)
     }
-    /////вавыаыв
-    println("Сгенерированный пароль: $password")
 }
