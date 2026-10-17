@@ -10,6 +10,5 @@ fun main() {
     for (i in 1..3) {
         password = password + letters.random() + digits.random()
     }
-    /////вавыаыв
     println("Сгенерированный пароль: $password")
 }
